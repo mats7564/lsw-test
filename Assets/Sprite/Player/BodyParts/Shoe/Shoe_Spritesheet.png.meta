@@ -1,0 +1,1178 @@
+fileFormatVersion: 2
+guid: b94eb23495e08a345aa30d92e0888d1e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6294a3c6049f0a428918c1dfb43bd6f
+      internalID: 148149944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aa8041d84abc94c9b4b135b64d3156
+      internalID: -1030968149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27c4c9f747013e448be02edd6cd5ec6
+      internalID: -1824385780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26db64447ecc9b7408b94ea846073574
+      internalID: 563983041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d322dd68f4a6440b3408a109bf3750
+      internalID: 670751676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee947065fb738c49b39c4287a54f3e3
+      internalID: -58433437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aa63bff18e3f643b4a8f74c8e8561c
+      internalID: 525640938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d044ad44827ec1f4aaf9b6a4c4406d5e
+      internalID: -2090320073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f030258d89d74c4aafb1756ffc744cf
+      internalID: 1532338560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6959800dd78333243882eb0780133764
+      internalID: -2119287620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64365918683f2dd4c828b18f62b62778
+      internalID: 1207368882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 191.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11abd3ef3f14fac469f85c5582d492e4
+      internalID: 422069608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d83367a505128149ac447ea52e2d19c
+      internalID: -832154964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238c03d87af892247b9f3e83a471315e
+      internalID: -2048627156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9999c62f1d2059647a941a6871e7a1ad
+      internalID: 522509392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74936122d1aebdf449b02bd35b4a154e
+      internalID: -1606068313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd6f4b9499ba784abeef19e2b8bf0f6
+      internalID: 948643016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efe945bf3976a74cad64544f5b0e332
+      internalID: -339454622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230ec0c38cdb8a74f9150eb0d49e23a0
+      internalID: -745667124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7185882fa54bda648817fdc4f3015860
+      internalID: 1106179854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58080927719d5b14d8d105ff30e75c12
+      internalID: 422899252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83c869aab87819498d7d84c9944e5de
+      internalID: 953814152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd147da749867684f860bc494817451e
+      internalID: -1730959606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4882d1a392094418dc3bcefa06c318
+      internalID: -875068952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d2ab3b3204d0b41b070c1a7a2932ba
+      internalID: -721002111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868617046746be34ea90590bba451d64
+      internalID: 1721009731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba26d2ba2e6d244aa6ef42c8f79b516
+      internalID: 597039628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9e0dcf38b051745b9bd48a1c5980d9
+      internalID: 1693860953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb83dd99cb62aef4ea8a2a5951e387bd
+      internalID: 1239634137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc67ad752c8767a448b1b11fa3615ca8
+      internalID: 607413903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beedbcc0d9e13a347843b6fb4059ae09
+      internalID: -858354195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecb27e22ea86724b8fb4a5f1a078305
+      internalID: -560079314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b456f6b4f5f028542bc33a1200d44a74
+      internalID: -1156138758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690aed3587d615248b31bed56b18281c
+      internalID: -2139635288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa41b43e1a56de44bd1981678a774a3
+      internalID: 1286068402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 65.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257509eafe9c707409f8542ebe53e81a
+      internalID: -126971722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd78ba1e031b66a4a8e5a290459b15b9
+      internalID: 1972008189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68da9f22ff703fe4191d781976e51e5c
+      internalID: 1047606299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c15feb1fa0ac054e9017a38321c2135
+      internalID: 1415929527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aa3048e8ffe9040b9e2497408eebc7
+      internalID: 1552374422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d73ebfd9d6e3046ab054b29078d631
+      internalID: 1668169746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2b37e3e2fcb964eb588627b248178d
+      internalID: 314062983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8ab4e22a957eb4fa396b3da5149512
+      internalID: -1207984919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abd262861b537546a47dee2b2c251d8
+      internalID: -1532501107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a1a409176fc948886310a18ed7bbf
+      internalID: -2125455969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61baad23e3f52b44aa8a0865517f6717
+      internalID: 1886021015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948fa3dc76e9886439fa91a9d50b5818
+      internalID: -1107464264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoe_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2.25
+        width: 64
+        height: 63.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0c0c3335e605e44a6bced9427d4bf3
+      internalID: -1629600565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Shoe_Spritesheet_36: 1972008189
+      Shoe_Spritesheet_37: 1047606299
+      Shoe_Spritesheet_14: 522509392
+      Shoe_Spritesheet_27: 1693860953
+      Shoe_Spritesheet_40: 1668169746
+      Shoe_Spritesheet_20: 422899252
+      Shoe_Spritesheet_8: 1532338560
+      Shoe_Spritesheet_25: 1721009731
+      Shoe_Spritesheet_38: 1415929527
+      Shoe_Spritesheet_41: 314062983
+      Shoe_Spritesheet_11: 422069608
+      Shoe_Spritesheet_2: -1824385780
+      Shoe_Spritesheet_17: -339454622
+      Shoe_Spritesheet_28: 1239634137
+      Shoe_Spritesheet_18: -745667124
+      Shoe_Spritesheet_1: -1030968149
+      Shoe_Spritesheet_44: -2125455969
+      Shoe_Spritesheet_23: -875068952
+      Shoe_Spritesheet_26: 597039628
+      Shoe_Spritesheet_46: -1107464264
+      Shoe_Spritesheet_5: -58433437
+      Shoe_Spritesheet_45: 1886021015
+      Shoe_Spritesheet_21: 953814152
+      Shoe_Spritesheet_47: -1629600565
+      Shoe_Spritesheet_39: 1552374422
+      Shoe_Spritesheet_30: -858354195
+      Shoe_Spritesheet_19: 1106179854
+      Shoe_Spritesheet_6: 525640938
+      Shoe_Spritesheet_7: -2090320073
+      Shoe_Spritesheet_16: 948643016
+      Shoe_Spritesheet_22: -1730959606
+      Shoe_Spritesheet_0: 148149944
+      Shoe_Spritesheet_33: -2139635288
+      Shoe_Spritesheet_42: -1207984919
+      Shoe_Spritesheet_43: -1532501107
+      Shoe_Spritesheet_4: 670751676
+      Shoe_Spritesheet_3: 563983041
+      Shoe_Spritesheet_10: 1207368882
+      Shoe_Spritesheet_32: -1156138758
+      Shoe_Spritesheet_35: -126971722
+      Shoe_Spritesheet_13: -2048627156
+      Shoe_Spritesheet_9: -2119287620
+      Shoe_Spritesheet_15: -1606068313
+      Shoe_Spritesheet_12: -832154964
+      Shoe_Spritesheet_31: -560079314
+      Shoe_Spritesheet_24: -721002111
+      Shoe_Spritesheet_34: 1286068402
+      Shoe_Spritesheet_29: 607413903
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
