@@ -22,9 +22,7 @@ public class Shop : MonoBehaviour
     }
 
     void CheckClothesStatus()
-    {
-        AlreadyHaveClothes();
-
+    {        
         if (ChangeOutfit.shirt[clotheNumber] == false) 
         { 
             buyButton.SetActive(true);
@@ -34,7 +32,8 @@ public class Shop : MonoBehaviour
         {
             buyButton.SetActive(false);
             sellButton.SetActive(true);
-        }     
+        }
+        AlreadyHaveClothes();
     }
 
     public void Buy()

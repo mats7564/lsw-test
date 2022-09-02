@@ -48,9 +48,11 @@ public class ChangeOutfit : MonoBehaviour
     int shirtNumber = 0;
     public static int referenceShirtNumber;
     // 0-Blue Leg 1-Green Leg 2- Yellow Leg 
+    public static Dictionary<int, bool> leg = new Dictionary<int, bool>();
     int legNumber = 0;
     public static int referenceLegNumber;
     // 0-Normal Boot 1-Red Tennis 2- Blue Tennis 3-Green Boot
+    public static Dictionary<int, bool> shoe = new Dictionary<int, bool>();
     int shoeNumber = 0;
     public static int referenceShoeNumber;
 
@@ -61,6 +63,13 @@ public class ChangeOutfit : MonoBehaviour
         shirt.Add(2, false);
         shirt.Add(3, false);
         shirt.Add(4, true);
+        leg.Add(0, true);
+        leg.Add(2, false);
+        leg.Add(1, false);
+        shoe.Add(0, true);
+        shoe.Add(1, true);
+        shoe.Add(2, true);
+        shoe.Add(3, true);
     }
 
     void Update()
