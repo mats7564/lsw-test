@@ -21,7 +21,9 @@ public class PlayerMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         outfitScript = GetComponent<ChangeOutfit>();
+        Expressions.StartTalk += ChangingOutfitHandler;
         outfitScript.OnOutfitChanging += ChangingOutfitHandler;
+        outfitScript.OnStore += ChangingOutfitHandler;
         outfitScript.OutOutfitChanging += OutChangingOutfitHandler;
     }
 

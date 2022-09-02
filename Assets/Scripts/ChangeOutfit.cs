@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ChangeOutfit : MonoBehaviour
 {
@@ -13,14 +14,12 @@ public class ChangeOutfit : MonoBehaviour
     [SerializeField] GameObject gameplayUI;
     [SerializeField] GameObject tutorialShop;
     [SerializeField] GameObject tutorialLocker;
+    [SerializeField] TMP_Text moneyText;
 
     [Header("ButtonsForBuy")]
     [SerializeField] GameObject shirtButtons;
     [SerializeField] GameObject pantsButtons;
     [SerializeField] GameObject shoeButtons;
-
-
-    [SerializeField] Vector3[] ErrorSave;
 
     public event Action OnOutfitChanging;
     public event Action OutOutfitChanging;
@@ -56,6 +55,9 @@ public class ChangeOutfit : MonoBehaviour
     int shoeNumber = 0;
     public static int referenceShoeNumber;
 
+    [Header("Money")]
+    public static int money = 10;
+
     void Start()
     {
         shirt.Add(0, true);
@@ -67,9 +69,10 @@ public class ChangeOutfit : MonoBehaviour
         leg.Add(2, false);
         leg.Add(1, false);
         shoe.Add(0, true);
-        shoe.Add(1, true);
-        shoe.Add(2, true);
-        shoe.Add(3, true);
+        shoe.Add(1, false);
+        shoe.Add(2, false);
+        shoe.Add(3, false);
+        Expressions.CanStartAfterTalk += BeginShop;
     }
 
     void Update()
@@ -79,7 +82,7 @@ public class ChangeOutfit : MonoBehaviour
         SwapUIForOutfit();
         SwapUIForShop();
         BeginLocker();
-        BeginShop();
+        TutorialShopOn();
         EndLocker();
         EndShop();
     }
@@ -89,6 +92,7 @@ public class ChangeOutfit : MonoBehaviour
         referenceShirtNumber = shirtNumber;
         referenceLegNumber = legNumber;
         referenceShoeNumber = shoeNumber;
+        moneyText.text = money.ToString();
     }
 
     #region Action
@@ -105,17 +109,17 @@ public class ChangeOutfit : MonoBehaviour
             OnOutfitChanging?.Invoke();
         }
     }
-    void BeginShop()
+    void TutorialShopOn()
     {
         if (!enterShop) { return; }
 
         tutorialShop.SetActive(true);
+    }
 
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            openShop = true;
-            OnStore?.Invoke();
-        }
+    void BeginShop()
+    {
+        openShop = true;
+        OnStore?.Invoke();
     }
     void EndLocker()
     {
@@ -182,12 +186,37 @@ public class ChangeOutfit : MonoBehaviour
     {
         legNumber++;
         if (legNumber == 3) { legNumber = 0; }
+
+        bool isUnlock = leg[legNumber];
+
+        if (!isUnlock)
+        {
+            lockLeg.SetActive(true);
+        }
+        else if (isUnlock)
+        {
+            lockLeg.SetActive(false);
+        }
+
         ChangingAnimatorNumber(legAnim, "LegNumber", legNumber);
+
     }
     public void NextShoe()
     {
         shoeNumber++;
         if (shoeNumber == 4) { shoeNumber = 0; }
+
+        bool isUnlock = shoe[shoeNumber];
+
+        if (!isUnlock)
+        {
+            lockShoe.SetActive(true);
+        }
+        else if (isUnlock)
+        {
+            lockShoe.SetActive(false);
+        }
+
         ChangingAnimatorNumber(shoeAnim, "ShoeNumber", shoeNumber);
     }
 
@@ -213,12 +242,36 @@ public class ChangeOutfit : MonoBehaviour
     {
         legNumber--;
         if (legNumber ==- 1) { legNumber = 2; }
+
+        bool isUnlock = leg[legNumber];
+
+        if (!isUnlock)
+        {
+            lockLeg.SetActive(true);
+        }
+        else if (isUnlock)
+        {
+            lockLeg.SetActive(false);
+        }
+
         ChangingAnimatorNumber(legAnim, "LegNumber", legNumber);
     }
     public void PreviusShoe()
     {
         shoeNumber--;
         if (shoeNumber == -1) { shoeNumber = 3; }
+
+        bool isUnlock = shoe[shoeNumber];
+
+        if (!isUnlock)
+        {
+            lockShoe.SetActive(true);
+        }
+        else if (isUnlock)
+        {
+            lockShoe.SetActive(false);
+        }
+
         ChangingAnimatorNumber(shoeAnim, "ShoeNumber", shoeNumber);
     }
 
